@@ -86,19 +86,18 @@ input:focus {
 
 #error, #success {
   margin-bottom: 20px;
-  padding: 12px;
-  border-radius: 6px;
   font-size: 16px;
+  font-weight: bold;
+  padding: 0;        
+  border: none;      
+  background: none;  
 }
 
 #error {
-  background-color: #ffe5e5;
-  color: #d8000c;
-  border: 1px solid #d8000c;
+  color: #d8000c;   
 }
 
 #success {
-  background-color: #e6ffe6;
-  color: #2e7d32;
-  border: 1px solid #2e7d32;
+  color: #2e7d32;   
 }
+
